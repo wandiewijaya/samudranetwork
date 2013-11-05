@@ -5,6 +5,11 @@ a{
 	color: $mainColor;
 	text-decoration: none;
 }
+
+.wrap{
+	border:1px solid #eee;
+}
+
 h2{
 	font-size:20px;
 	color: $mainColor;
@@ -29,6 +34,8 @@ blockquote{
 }
 
 #header{
+	@include pie-clearfix;
+	@include defPadding;
 	border-top: solid 5px $mainColor;
 	#logo{
 		float: left; 
@@ -102,6 +109,8 @@ blockquote{
 
 
 #section{
+	@include defPadding;
+	@include pie-clearfix;
 	p{
 		margin-top:0;
 		line-height:25px;
@@ -124,6 +133,7 @@ blockquote{
 }
 
 #partner{
+	@include defPadding;
 	border-top: solid 1px #eee;
 	background: lighten(#eee, 5%);
 	text-align: center;
@@ -145,7 +155,7 @@ blockquote{
 
 #footer{
 	border-top:1px solid darken(#eee, 10%);
-	padding: 10px 0;
+	padding: 10px 10px;
 	background: #eee;
 	color:#444;
 }

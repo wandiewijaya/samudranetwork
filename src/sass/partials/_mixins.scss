@@ -2,6 +2,10 @@
 	@include border-radius($n);
 }
 
+@mixin defPadding{
+	padding:0 10px;
+}
+
 @mixin main-transition($s:0.5s){
 	@include transition-duration($s);
 }

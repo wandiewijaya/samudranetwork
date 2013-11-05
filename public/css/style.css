@@ -347,6 +347,10 @@ a {
   text-decoration: none;
 }
 
+.wrap {
+  border: 1px solid #eee;
+}
+
 h2 {
   font-size: 20px;
   color: #265fb6;
@@ -368,7 +372,14 @@ blockquote span:before {
 }
 
 #header {
+  *zoom: 1;
+  padding: 0 10px;
   border-top: solid 5px #265fb6;
+}
+#header:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 #header #logo {
   float: left;
@@ -456,6 +467,15 @@ blockquote span:before {
   color: #265fb6;
 }
 
+#section {
+  padding: 0 10px;
+  *zoom: 1;
+}
+#section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 #section p, #section blockquote {
   margin-top: 0;
   line-height: 25px;
@@ -478,6 +498,7 @@ blockquote span:before {
 }
 
 #partner {
+  padding: 0 10px;
   border-top: solid 1px #eee;
   background: #fbfbfb;
   text-align: center;
@@ -505,7 +526,7 @@ blockquote span:before {
 
 #footer {
   border-top: 1px solid #d4d4d4;
-  padding: 10px 0;
+  padding: 10px 10px;
   background: #eee;
   color: #444;
 }
