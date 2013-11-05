@@ -348,7 +348,9 @@ a {
 }
 
 .wrap {
-  border: 1px solid #eee;
+  -webkit-box-shadow: 0 0 10px #444444;
+  -moz-box-shadow: 0 0 10px #444444;
+  box-shadow: 0 0 10px #444444;
 }
 
 h2 {
@@ -419,12 +421,10 @@ blockquote span:before {
 }
 
 #slide {
-  border-bottom: solid 3px #265fb6;
   background: #265fb6;
   text-align: center;
 }
 #slide img {
-  margin: auto;
   display: block;
 }
 

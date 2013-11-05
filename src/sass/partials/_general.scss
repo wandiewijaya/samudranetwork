@@ -1,13 +1,15 @@
 /*******************************************************************************/
 /*     @general
 /*******************************************************************************/
+
 a{
 	color: $mainColor;
 	text-decoration: none;
 }
 
 .wrap{
-	border:1px solid #eee;
+	// border:1px solid #eee;
+	@include box-shadow(0 0 10px #444);
 }
 
 h2{
@@ -72,11 +74,11 @@ blockquote{
 
 #slide{
 	// display:inline;
-	border-bottom: solid 3px $mainColor;
+	// border-bottom: solid 3px $mainColor;
 	background: $mainColor;
 	text-align: center;
 	img{
-		margin:auto;
+		// margin:auto;
 		display:block;	
 	}
 }
