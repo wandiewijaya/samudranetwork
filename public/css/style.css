@@ -342,12 +342,17 @@ img {
 /*******************************************************************************/
 /*     @general
 /*******************************************************************************/
+body {
+  background: url('../img/bg.png?1383647139') top center;
+}
+
 a {
   color: #265fb6;
   text-decoration: none;
 }
 
 .wrap {
+  background: #fff;
   -webkit-box-shadow: 0 0 10px #444444;
   -moz-box-shadow: 0 0 10px #444444;
   box-shadow: 0 0 10px #444444;

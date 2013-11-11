@@ -1,6 +1,9 @@
 /*******************************************************************************/
 /*     @general
 /*******************************************************************************/
+body{
+	background: image-url('bg.png') top center;
+}
 
 a{
 	color: $mainColor;
@@ -9,6 +12,7 @@ a{
 
 .wrap{
 	// border:1px solid #eee;
+	background:#fff;
 	@include box-shadow(0 0 10px #444);
 }
 
